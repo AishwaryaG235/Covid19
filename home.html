@@ -1,4 +1,5 @@
-﻿<html>
+
+<html>
 </<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -7,22 +8,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 </head>
-  <body>
-      <h2>Not YouTube</h2>
+<body>
+    <header>
+        <h2>Not You Tube</h2>
+    </header>
+    <!-- ============= -->
 
-      <!-- ============= -->
+    <div class="container">
+        <div class="box">
+            <div class="search-bar">
+                <form action=" = " #">
+                    <input type="text" placeholder="Search">
+                    <!--<p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>-->
+                    <button type="submit" ><i class="fas fa-search"></i></button>
+                </form>
+                <div id="results"></div>
+            </div>
+        </div>
+    </div>
 
-      <div class="container">
-          <div class="box">
-              <div class="search-bar">
-                  <form>
-                      <input type="text" placeholder="Search">
-                      <button><i class="fas fa-search"></i></button>
-                  </form>
-              </div>
-          </div>
-      </div>
-
-  </body>
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+</body>
 </html>
-
